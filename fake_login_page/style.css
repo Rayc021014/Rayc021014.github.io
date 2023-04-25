@@ -1,3 +1,6 @@
+. {
+    font-family: sans-serif;
+}
 :root {
     --width: 47%;
 }
@@ -19,13 +22,7 @@ html {
     padding-top: 0rem;
 }
 
-.t1 {
-    position: center;
-    text-align: center;
-    font-size: 0.875rem;
-    padding-top: 1.5rem;
 
-}
 
 .app-buttons {
 
@@ -36,6 +33,7 @@ html {
 
     width: 450px;
     height: 50px;
+
     display: flex;
     font-weight: 600;
     letter-spacing: 0.1rem;
@@ -45,14 +43,16 @@ button > span {
     font-size: 0.875rem;
 }
 
-#facebook {
+.icons {
 
+    width: 16px;
+}
+
+#facebook {
+    margin-top: 35px;
 
     background-color: rgb(24, 119, 242);
     color: rgba(255, 255, 255, 0.9);
-
-
-
     border-color: rgba(0, 0, 0, 0.2);
     border-radius: 500px;
 }
@@ -158,33 +158,40 @@ button > span {
     width: 100%;
     text-decoration: underline;
     color: black;
-    font-weight: 300;
+    font-weight: bold;
     padding: 15px 0;
 
 }
 
 #forgot:hover {
-
+    color: #169b45;
 }
 
 #remember {
+
     font-size: 15px;
 
 }
 
 #remember-label {
 
+    background: #169b45;
 }
+
+.credentials ~ input:checked {
+    color: #169b45;
+}
+
 
 #log-in {
 
-    margin: 0 0 10px 80%;
+    margin: 0 0 5px 80%;
     background-color: #1ed760;
-    width: 85px;
+    width: 90px;
     height: 3rem;
     border: none;
     border-radius: 500px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 #log-in:hover {

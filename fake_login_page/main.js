@@ -1,0 +1,15 @@
+function clickGoogle () {
+    window.location.assign("https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQDCLxn143bdsDXY%2Fs8Pn68fnkhfaEpjV%2Bf5RRxbA%2F3LoRfld0ZMT0pqyXXxyDPzAtwouN1dpNzrufP7vU7HJQqaep5MoXlfCLIRzTELOqwd01SAChzQRg52M8eQUXJ5zpjT9kQ3Uxt%2Bphd8Spmk7DCeXCln6A4RfomkgvrVvW8WhXBWbtmij08%2BQpJ686mYBFRJ3Z8%2BaZaKVjuq3tx99i4S15RMH8FAjVWWdXqj5EFHOvK7u0eveQFgMcQjDiyEyHELk4%2B5Bd2bUEXGTdUEE2%2B1jK%2BpV7FhRB3VYBGl7FRovf%2FNCqc7Cjjv8r3QtQXTK8lzYvkVP59hHTtJNOnBGcBbkCX1S3B9&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect&service=lso&o2v=2&flowName=GeneralOAuthFlow");
+}
+
+function clickApple () {
+    window.location.assign("https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQAO4Nv8psH8fAc0E7zFQvTJKJDlYmeYh0tl6zpmtES7Gsujx9dKGalJ38eJjzxYUroOXggQE1h0gbTAkYJycoo7tSGsOQ83BDWReBXGlAMBUUfaUSD%2B0emzD%2BwDx%2BI7gZ96s3yvlZtHEghzUyw%2FSFy%2BdHURfTcPXiRpNko2E0LN5LB8%2BSaQwmFHZ%2FoQeZ2%2FF5BPOoIhQ%2BlHdSU%2F0nFdygEp5iWbNx6OyV3Mkl%2FLr8FpM4R1N2GMfBOBUFNhcGhNd2VIkbgwZ%2BlpN1iX%2Bw%3D%3D&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect");
+}
+
+function clickFacebook () {
+    window.location.assign("https://www.facebook.com/login.php?skip_api_login=1&api_key=174829003346&kid_directed_site=0&app_id=174829003346&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv7.0%2Fdialog%2Foauth%3Fclient_id%3D174829003346%26state%3DAQB5pnMdIRHjCItM8blnzq%252Fb60gu0QSmuFIK8sOXNn%252BtvCj1iCd3BqawJoVzozgNhi8RtZsgpOkjb4CABZF84afhS%252FMoz0LCHZf6fGP%252BigNZADkiYhZ7gE8gcLawvxs3NheRSShO7M9Q68iBSx0Z6opizwpWVFtszWy0yfv2jIJpZ4v6U0pU5R8%252FH%252BQUVKDpspaGN9t%252BENCNYd%252F0P3TUbqTctB6Haaiws3UnCuYyadBI5klQJ%252BsDKEIlezqg759jTHqYTgpB9%252BA0jmOZSLRnf2OQ46wEbJXC8HAl2WQvWePttNic0zSQVKDjHL2bGJSaNTspdu3%252FrdkQbxm0FBnmtqsKy5psyq%252By%26redirect_uri%3Dhttps%253A%252F%252Faccounts.spotify.com%252Flogin%252Ffacebook%252Fredirect%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D20d9dd51-bb1e-4bbb-84f1-4dae296cbb93%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Ffacebook%2Fredirect%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DAQB5pnMdIRHjCItM8blnzq%252Fb60gu0QSmuFIK8sOXNn%252BtvCj1iCd3BqawJoVzozgNhi8RtZsgpOkjb4CABZF84afhS%252FMoz0LCHZf6fGP%252BigNZADkiYhZ7gE8gcLawvxs3NheRSShO7M9Q68iBSx0Z6opizwpWVFtszWy0yfv2jIJpZ4v6U0pU5R8%252FH%252BQUVKDpspaGN9t%252BENCNYd%252F0P3TUbqTctB6Haaiws3UnCuYyadBI5klQJ%252BsDKEIlezqg759jTHqYTgpB9%252BA0jmOZSLRnf2OQ46wEbJXC8HAl2WQvWePttNic0zSQVKDjHL2bGJSaNTspdu3%252FrdkQbxm0FBnmtqsKy5psyq%252By%23_%3D_&display=page&locale=zh_TW&pl_dbl=0");
+}
+
+function sign_up () {
+    window.location.assign("https://www.spotify.com/tw/signup?flow_id=a4ed0182-7296-43f2-8af0-2e2efbfbabd6%3A1682459394&forward_url=https%3A%2F%2Fopen.spotify.com%2F%3Fflow_id%3Da4ed0182-7296-43f2-8af0-2e2efbfbabd6%253A1682459394");
+}
