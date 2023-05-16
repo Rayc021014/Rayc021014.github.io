@@ -1,2 +1,5 @@
 ../node_modules 
 mech_cpi/node_modules 
+node_modules 
+node_modules/* 
+.idea/ 
