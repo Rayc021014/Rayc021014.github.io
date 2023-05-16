@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68948cd3-012e-4d1f-9314-55d388745500" name="Changes" comment="update0516">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignoreiti" beforeDir="false" />
-    </list>
+    <list default="true" id="68948cd3-012e-4d1f-9314-55d388745500" name="Changes" comment="update0516" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +64,7 @@
       <workItem from="1684164723383" duration="5308000" />
       <workItem from="1684207206023" duration="2383000" />
       <workItem from="1684214810413" duration="8322000" />
-      <workItem from="1684231088843" duration="3442000" />
+      <workItem from="1684231088843" duration="3950000" />
     </task>
     <task id="LOCAL-00001" summary="update0516">
       <created>1684231366472</created>
